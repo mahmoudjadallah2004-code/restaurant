@@ -1,0 +1,31 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "start": "react-scripts start",
+  "build": "react-scripts build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+   
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahmoudjadallah2004-code/restaurant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mahmoudjadallah2004-code/restaurant/issues"
+  },
+  "homepage": "https://github.com/mahmoudjadallah2004-code/restaurant#readme",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+
+
+
+}
